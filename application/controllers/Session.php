@@ -19,6 +19,10 @@ class Session extends CI_Controller {
 
 	}
 
+	public function logout()
+	{		
+	}
+
 	public function register()
 	{
 

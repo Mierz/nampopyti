@@ -1,21 +1,17 @@
-<div class="row-fluid">
-	<div class="span3">
-		Найти попутчика легко!!!
-	</div>
+<div class="row-fluid" id="search-place">
+	<div class="span4 slogan"></div>
 
-	<div class="span3">
-		чувак со стоулом
-	</div>
+	<div class="span4 man_bottom"></div>
 
-	<div class="span6">	
-		<form action="/routes/search" method="get">
+	<div class="span4">	
+		<form action="/routes/search" class="main-form" method="get">
 			<div class="input-prepend">
-				<span class="add-on"><i class="icon-map-marker icon-white"></i></span>
-				<input type="text" name="from" id="from" />
+				<span class="add-on" style="background: #e81c4e;"><i class="icon-map-marker icon-white"></i></span>
+				<input type="text" name="from" id="from" placeholder="От..." />
 			</div>
 			<div class="input-prepend">
-				<span class="add-on"><i class="icon-map-marker icon-white"></i></span>
-				<input type="text" name="to" id="to" />
+				<span class="add-on" style="background: #b4e42c;"><i class="icon-map-marker icon-white"></i></span>
+				<input type="text" name="to" id="to" placeholder="До..." />
 			</div>
 			<div class="form-group">			
 				<button class="btn"><i class="icon-search"></i> Найти</button>
@@ -25,14 +21,9 @@
 	</div>
 </div>
 
-<?php
-echo $this->router->fetch_class();
-echo $this->router->fetch_method();
-?>
-
-<div class="row-fluid">
+<div class="row-fluid mtop">
 	<div class="span6">
-		<table class="table table-bordered">
+		<table class="table table-bordered table-red">
   			<tr>
   				<th>Попутчики</th>
   			</tr>
@@ -49,7 +40,7 @@ echo $this->router->fetch_method();
 	</div>
 
 	<div class="span6">
-		<table class="table table-bordered">
+		<table class="table table-bordered table-green">
   			<tr>
   				<th>Водители</th>
   			</tr>

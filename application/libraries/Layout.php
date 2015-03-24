@@ -57,4 +57,3 @@ class Layout
         //echo "brbr";
     }
 }
-?> 

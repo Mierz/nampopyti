@@ -1,0 +1,12 @@
+body {
+	background: url('/public/images/bg.png');
+}
+
+#search-place {
+	background: #c4dc65;
+	border-radius: 5px;
+}
+
+#search-place a {
+	color: #fff;
+}
