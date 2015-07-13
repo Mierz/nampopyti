@@ -1,0 +1,13 @@
+body { margin:0; padding:0; background:#d0eaef; font-family:Georgia; font-size:12px; }
+		#header { background:#1f4562; height:55px; color:#fff; }
+		#header a:link, #header a:visited, #header a:active, #header a:hover { color:#fff; }
+		.wrapper { width:1000px; margin:0 auto; }
+		.logo { width:800px; float:left; line-height:55px; font-size:18px; font-style:oblique; }
+		.login { float:left; width:200px; line-height:55px; }
+		.error { border:3px solid #eed3d7; padding:5px; background:#f2dede; color:#b94a48; }
+		.good { border:3px solid #e6db55;padding:5px;background:#ffffe0; }
+		.avatar { width:200px; height:200px; }
+		#slider { background:url('images/slider.png'); height:355px; }
+		#content { background:url('images/content.png'); background-repeat:repeat-x; background-position:top; }
+				
+		#footer { background:#2c2c2c; height:70px; border-top:1px solid #abdae2; color:#fff; }
